@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap"
+      rel="stylesheet"
+    />
+    <title>Frontend Mentor | Recipe page</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body class="bg-[color:hsl(30,54%,90%)]">
+    <main
+      class="bg-[color:hsl(0,0%,100%)] my-8 max-w-2xl mx-auto rounded-xl p-8"
+    >
+      <img src="assets/images/image-omelette.jpeg" class="rounded-xl" alt="" />
+      <div class="my-4">
+        <p class="font-['Young Serif'] text-2xl font-bold my-1">
+          Simple Omelette Recipe
+        </p>
+        <p class="text-base font-['outfit']">
+          An easy and quick dish, perfect for any meal. This classic omelette
+          combines beaten eggs cooked to perfection, optionally filled with your
+          choice of cheese, vegetables, or meats.
+        </p>
+      </div>
+      <div class="bg-[color:hsl(330,100%,98%)] p-4 rounded-xl">
+        <p
+          class="font-bold font-['Young Serif'] text-[color:hsl(332,51%,32%)] text-xl my-1"
+        >
+          Preparation time
+        </p>
+        <ul class="py-2 list-outside space-y-2 font-['outfit']">
+          <li class="flex flex-row items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-2 h-2 mr-2" viewBox="0 0 24 24"><path fill="currentColor" d="M12 7a5 5 0 1 1-4.995 5.217L7 12l.005-.217A5 5 0 0 1 12 7"/></svg><span></span>
+            <span><span class="font-bold text-[color:hsl(30,10%,34%)]">Total:</span>
+            Approximately 10 minutes</span>
+          </li>
+          <li class="flex flex-row items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-2 h-2 mr-2" viewBox="0 0 24 24"><path fill="currentColor" d="M12 7a5 5 0 1 1-4.995 5.217L7 12l.005-.217A5 5 0 0 1 12 7"/></svg><span></span>
+            <span><span class="font-bold text-[color:hsl(30,10%,34%)]"
+              >Preparation:</span
+            ></span>
+            5 minutes
+          </li>
+          <li class="flex flex-row items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-2 h-2 mr-2" viewBox="0 0 24 24"><path fill="currentColor" d="M12 7a5 5 0 1 1-4.995 5.217L7 12l.005-.217A5 5 0 0 1 12 7"/></svg><span></span>
+            <span><span class="font-bold text-[color:hsl(30,10%,34%)]">Cooking:</span>
+            5 minutes</span>
+          </li>
+        </ul>
+      </div>
+      <div class="my-4">
+        <p class="text-[color:hsl(14,45%,36%)] text-2xl font-bold">
+          Ingredients
+        </p>
+        <ul class="py-2 list-outside space-y-2 font-['outfit']">
+          <li class="flex flex-row items-center"><svg xmlns="http://www.w3.org/2000/svg" class="w-2 h-2 mr-2" viewBox="0 0 24 24"><path fill="currentColor" d="M12 7a5 5 0 1 1-4.995 5.217L7 12l.005-.217A5 5 0 0 1 12 7"/></svg><span>2-3 large eggs</span></li>
+          <li class="flex flex-row items-center"><svg xmlns="http://www.w3.org/2000/svg" class="w-2 h-2 mr-2" viewBox="0 0 24 24"><path fill="currentColor" d="M12 7a5 5 0 1 1-4.995 5.217L7 12l.005-.217A5 5 0 0 1 12 7"/></svg><span>Salt, to taste</span></li>
+          <li class="flex flex-row items-center"><svg xmlns="http://www.w3.org/2000/svg" class="w-2 h-2 mr-2" viewBox="0 0 24 24"><path fill="currentColor" d="M12 7a5 5 0 1 1-4.995 5.217L7 12l.005-.217A5 5 0 0 1 12 7"/></svg><span>Pepper, to taste</span></li>
+          <li class="flex flex-row items-center"><svg xmlns="http://www.w3.org/2000/svg" class="w-2 h-2 mr-2" viewBox="0 0 24 24"><path fill="currentColor" d="M12 7a5 5 0 1 1-4.995 5.217L7 12l.005-.217A5 5 0 0 1 12 7"/></svg><span>1 tablespoon of butter or oil</span></li>
+          <li class="flex flex-row items-center"><svg xmlns="http://www.w3.org/2000/svg" class="w-2 h-2 mr-2" viewBox="0 0 24 24"><path fill="currentColor" d="M12 7a5 5 0 1 1-4.995 5.217L7 12l.005-.217A5 5 0 0 1 12 7"/></svg><span>
+            Optional fillings: cheese, diced vegetables, cooked meats, herbs</span>
+          </li>
+        </ul>
+      </div>
+      <div class="border-y-2 py-4">
+        <p class="text-[color:hsl(14,45%,36%)] text-2xl font-bold">
+          Instructions
+        </p>
+        <ol class="py-2 list-outside space-y-2 font-['outfit']">
+          <li>
+            <span class="font-bold text-[color:hsl(30,10%,34%)]">Beat the eggs:</span> In a bowl, beat the eggs with a pinch of salt and
+            pepper until they are well mixed. You can add a tablespoon of water
+            or milk for a fluffier texture.
+          </li>
+          <li>
+            <span class="font-bold text-[color:hsl(30,10%,34%)]">Heat the pan:</span> Place a non-stick frying pan over medium heat and add
+            butter or oil.
+          </li>
+          <li>
+            <span class="font-bold text-[color:hsl(30,10%,34%)]">Cook the omelette:</span> Once the butter is melted and bubbling, pour in
+            the eggs. Tilt the pan to ensure the eggs evenly coat the surface.
+          </li>
+          <li>
+            <span class="font-bold text-[color:hsl(30,10%,34%)]">Add fillings (optional):</span> When the eggs begin to set at the edges but
+            are still slightly runny in the middle, sprinkle your chosen
+            fillings over one half of the omelette.
+          </li>
+          <li>
+            <span class="font-bold text-[color:hsl(30,10%,34%)]">Fold and serve:</span> As the omelette continues to cook, carefully lift
+            one edge and fold it over the fillings. Let it cook for another
+            minute, then slide it onto a plate.
+          </li>
+          <li><span class="font-bold text-[color:hsl(30,10%,34%)]">Enjoy:</span> Serve hot, with additional salt and pepper if needed.</li>
+        </ol>
+      </div>
+      <div class="my-4">
+        <p class="text-[color:hsl(14,45%,36%)] text-2xl font-bold">
+          Nutrition
+        </p>
+        <p class="my-2 font-['outfit']">The table below shows nutritional values per serving without the
+          additional fillings.</p>
+          <table class="w-full font-['outfit'] text-left rtl:text-right text-gray-500 dark:text-gray-400">
+            <tbody>
+                <tr class="bg-white border-b-2 dark:border-gray-200">
+                    <th scope="row" class="px-6 py-2 font-medium text-gray-900 whitespace-nowrap">
+                      Calories
+                    </th>
+                    <td class="px-6 py-2 font-bold text-[color:hsl(14,45%,36%)]">
+                      277kcal
+                    </td>
+                </tr>
+                <tr class="bg-white border-b-2 dark:border-gray-200">
+                    <th scope="row" class="px-6 py-2 font-medium text-gray-900 whitespace-nowrap">
+                      Carbs
+                    </th>
+                    <td class="px-6 py-2 font-bold text-[color:hsl(14,45%,36%)]">
+                      0g
+                    </td>
+                   
+                </tr>
+                <tr class="bg-white border-b-2 dark:border-gray-200">
+                    <th scope="row" class="px-6 py-2 font-medium text-gray-900 whitespace-nowrap">
+                      Protein
+                    </th>
+                    <td class="px-6 py-2 font-bold text-[color:hsl(14,45%,36%)]">
+                      20g
+                    </td>
+                </tr>
+                <tr class="bg-white">
+                  <th scope="row" class="px-6 py-2 font-medium text-gray-900 whitespace-nowrap">
+                    Fat
+                  </th>
+                  <td class="px-6 py-2 font-bold text-[color:hsl(14,45%,36%)]">
+                    22g
+                  </td>
+              </tr>
+            </tbody>
+        </table>
+      </div>
+    
+    </main>
+   
+             
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Sylvanus Charlie M'PO</a>.
+    </div>
+  </body>
+</html>
